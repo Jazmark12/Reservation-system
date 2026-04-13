@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS reservation_items (
 ) ENGINE=InnoDB;
 
 -- -----------------------------------------------
--- Sample Data – Items
+-- Sample Data - Items
 -- -----------------------------------------------
 INSERT INTO items (item_description, discounted, quantity_by_order, price) VALUES
     ('Honda Civic 2009',                   1,  1, 450230.00),
